@@ -1,0 +1,19 @@
+# Terraform Arbeitsverzeichnisse und Dateien
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.plan
+
+# Sensible Dateien
+*.tfvars
+*.tfvars.json
+
+# IDE und Betriebssystem-spezifische Dateien
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs und temporäre Dateien
+*.log
+*.bak
